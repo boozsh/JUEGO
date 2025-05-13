@@ -21,7 +21,7 @@ let restartButton, menuButton;
 
 let ranking = [];
 let bgMusic;
-let bgMusicVolume = 0.2;
+let bgMusicVolume = 0.8;
 
 let voicePhrases = [];
 let currentVoice;
