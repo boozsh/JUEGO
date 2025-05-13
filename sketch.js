@@ -1,5 +1,5 @@
 // Variables globales
-let mic;
+
 let playerY = 800;
 let velocity = 0;
 let gravity = 0.75;
