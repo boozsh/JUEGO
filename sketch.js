@@ -1,5 +1,5 @@
 // Variables globales
-
+let mic;
 let playerY = 800;
 let velocity = 0;
 let gravity = 0.75;
@@ -184,7 +184,7 @@ function draw() {
 
     // Control por voz (actualiza tiempo de actividad)
     let vol = mic.getLevel();
-    if (vol > 0.05) {
+    if (vol > 0.00) {
       lastActivityTime = millis();
       
       if (playerY >= 800) {
